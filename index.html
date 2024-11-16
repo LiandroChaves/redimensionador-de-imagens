@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Redimensionador de Imagem</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Redimensionador de Imagem</h1>
+        <input type="file" id="imageInput" accept="image/*">
+        <input type="number" id="widthInput" placeholder="Largura (px)">
+        <input type="number" id="heightInput" placeholder="Altura (px)">
+        <button id="resizeButton">Redimensionar e Baixar</button>
+        <canvas id="canvas" style="display: none;"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
