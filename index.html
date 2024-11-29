@@ -10,17 +10,13 @@
     <div class="container">
         <h1>Redimensionador de Imagem</h1>
         <input type="file" id="imageInput" accept="image/*">
-        <div>
-            <label>
-                <input type="number" id="widthInput" placeholder="Largura em (px)">
-                Largura em (px)
-            </label>
+        <div class="flex-linha">
+            <input type="number" id="widthInput" placeholder="Largura em (px)">
+            <label>Largura em (px)</label>
         </div>
-        <div>
-            <label>
-                <input type="number" id="heightInput" placeholder="Altura em (px)">
-                Altura em (px)
-            </label>
+        <div class="flex-linha">
+            <input type="number" id="heightInput" placeholder="Altura em (px)"> 
+            <label>Altura em (px)</label>
         </div>
         <button id="resizeButton">Redimensionar e Baixar</button>
         <canvas id="canvas" style="display: none;"></canvas>
